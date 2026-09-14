@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Onze verkenning van Utrecht</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-color: #f7ede3;
+      text-align: center;
+      color: #84a59e;
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .locaties-grid {
+      display: flex;
+      flex-wrap: wrap;      
+      justify-content: center; 
+      gap: 30px;             
+      padding: 20px;
+    }
+
+    .locatie-card {
+      background-color: #ffffff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); 
+      width: 400px;         
+    }
+
+    .locatie-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;    
+      border-radius: 4px;
+    }
+
+    .locatie-card h2 {
+      margin-top: 15px;
+      font-size: 1.4rem;
+    }
+
+    .locatie-card a {
+      color: #84a59e;
+      text-decoration: none;
+    }
+
+    .locatie-card a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="domtoren.html">Domtoren</a>
+    <a href="Centraal Museum.html">Centraal Museum</a>
+    <a href="Bibliotheek Neude.html">Bibliotheek Neude</a>
+    <a href="Oude Gracht met Werven.html">Oudegracht</a>
+  </nav>
+
+  <section class="hero">
+    <img src="https://i.imgur.com/ykUu2Qm.jpeg" alt="Utrecht" style="max-width: 100%; height: auto;">
+    <div class="hero-tekst">
+      <h1>Ontdek Utrecht</h1>
+      <p>8 bijzondere plekken in de stad</p>
+    </div>
+  </section>
+
+  <section class="locaties-grid">
+
+    <div class="locatie-card">
+      <h2><a href="domtoren.html">Domtoren</a></h2>
+      <img src="https://i.imgur.com/fjaM7MQ.jpeg" alt="Domtoren">
+    </div>
+
+    <div class="locatie-card">
+      <h2><a href="Centraal Museum.html">Centraal Museum</a></h2>
+      <img src="https://i.imgur.com/X8LeEt4.jpeg" alt="Centraal Museum">
+    </div>
+
+    <div class="locatie-card">
+      <h2><a href="Bibliotheek Neude.html">Bibliotheek Neude</a></h2>
+      <img src="https://i.imgur.com/A5n8cFz.jpeg" alt="Bibliotheek Neude">
+    </div>
+
+    <div class="locatie-card">
+      <h2><a href="Oude Gracht met Werven.html">Oude Gracht met Werven</a></h2>
+      <img src="https://i.imgur.com/v1658K1.jpeg" alt="Oude Gracht met Werven">
+    </div>
+
+  </section>
+
+</body>
+</html>

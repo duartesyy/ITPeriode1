@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Geovana Duarte</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Welkom bij mijn portfolio</h1>
+            <p>Ik ben een webontwikkelaar</p>
+            <a href="#projects" class="cta-button">Bekijk mijn projecten</a>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Over Mij</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Ik ben een 21-jarige student die graag websites bouwt. Ik zit op het mbo en leer momenteel HTML, CSS en JavaScript.</p>
+                </div>
+                <div class="skills">
+                    <h3>Vaardigheden</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projecten</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Een website over Utrecht, gemaakt met AI en eigen foto's.</p>
+                    <a href="Projects/Introweek Project/Introweek.html">Bekijk project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Een project over de basis van webdevelopment: een pagina bouwen en stylen met HTML en CSS.</p>
+                    <a href="Projects/Front-End Opdracht 1 Project/Project Front-End 1.html">Bekijk project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Een tekstpagina gestructureerd met HTML en gestyled via een extern CSS-bestand. (Nog niet afgerond).</p>
+                    <a href="Projects/Front-End Opdracht 2 Project/index.html">Bekijk project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Naam" required>
+                <input type="email" placeholder="E-mail" required>
+                <textarea placeholder="Bericht" required></textarea>
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mijn Portfolio. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
